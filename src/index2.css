@@ -1,0 +1,102 @@
+
+.alert-box{
+    margin-top: 25px;
+    border: 1px solid  #FFEF85;
+    padding: 16px ;
+    border-radius: 6px;
+    background-color:#FFFAEB;
+    color:rgb(150, 95, 19);
+    font-size: 15px;
+    
+
+}
+
+.alert-msg{
+    height: fit-content;
+}
+/* .alert-msg .head::before{
+    content: "!";
+} */
+
+.alert-box p{
+ position: relative;
+ line-height: 150%;
+ font-weight: 500;
+}
+
+
+
+
+.footer{
+    background-color: #333;
+}
+
+
+.footer-box{
+    margin-top: 50px;
+    background-color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+.footer-list{
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-left: 30px;
+    
+}
+@media only screen and(max-width: 1000px){
+    .footer-list{
+        display: none;
+    }
+ }
+
+
+.list-items{
+    margin: 10px;
+    font-weight: 400;
+}
+
+.contest{
+    cursor: pointer;
+    font-size: 11px;
+    color: #ffffff;
+    width: fit-content;
+    background-color: #FF8C00;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 400;
+}
+
+
+.end-credits{
+    justify-content: space-between;
+    padding: 50px;
+    border-top: 1px solid #666;
+    display: flex;
+    flex-wrap:wrap;
+    color: #ffffff;
+    font-size:15px;
+    font-weight: 500;
+}
+
+
+.social-media-container{
+    
+    display: flex;
+    justify-content: left;
+}
+.android-app{
+    height: 40px;
+    width:fit-content;
+    border:2px solid white;
+    padding: 5px;
+    border-radius: 6px;
+}
+.social-media-icon{
+    height: 54px;
+    margin-left: 10px;
+}
