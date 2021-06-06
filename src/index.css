@@ -164,6 +164,9 @@ padding: 20px 0 10px;
 color: blue;
 }
 
+.website{
+display: flex;
+}
 .website-link{
   margin-right: 5px;
 }

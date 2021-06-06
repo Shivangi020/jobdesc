@@ -3,7 +3,7 @@ import React from "react";
 function Detail(){
  return <div  className="more-info">
      <h3>About Internshala</h3>
-                <div ><a className="website-link" href="#">Website</a><span><img class="icon-size"src="Image/link.png"/></span></div>
+                <div className="website" ><a className="website-link" href="#">Website</a><span><img class="icon-size"src="Image/link.png"/></span></div>
                 <p>
                 Internshala is a dot com business with the heart of dot org
                 </p>
