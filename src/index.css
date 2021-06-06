@@ -38,7 +38,13 @@ padding: 20px 0 10px;
   margin-left: 10px;
   margin-right: 20px;
 }
-
+.h{
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
 .title{
   display: flex;
   justify-content: space-between;
@@ -50,8 +56,7 @@ padding: 20px 0 10px;
 }
 .detail{
   margin-top: 50px;
-  margin-left: 150px;
-  margin-right: 150px;
+
 }
 
 .heading{
